@@ -4,7 +4,7 @@
 
 Suppose a language model has an afternoon to look for a large Sidon set of squares. It could spend the whole time on the target problem, or it could work through simpler variants and leave notes for a second attempt. Variatio asks which choice helps most. The test is what a fresh session of the same model can construct on an unseen instance using those notes.
 
-The project is at the design stage. The first milestone is a verifier that can explain why a proposed set fails.
+The project is at the design stage, and it studies how a language model should spend a fixed exploration budget on a hard mathematical problem: on the problem itself, or on simpler variants that leave reusable notes. Each strategy (direct search, random variants, easiest-first, and complementary variants) produces notes under the same budget. A fresh session of the same model then uses them to build constructions on unseen instances. Every answer is checked by an exact verifier. The first case study is Erdős Problem 773: large Sidon sets among the squares. The first milestone is a verifier that can explain why a proposed set fails.
 
 ## The first case study
 
