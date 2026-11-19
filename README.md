@@ -1,4 +1,4 @@
-# Ordo Variationum
+# Variatio
 
 **Which mathematical variants are worth exploring first?**
 
